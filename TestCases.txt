@@ -1,0 +1,14 @@
+*** Settings ***
+Library           AppiumLibrary
+
+*** Test Cases ***
+Test_Case1
+    [Documentation]    This is demo test case to open andoid application
+    Open Application    http://localhost:4723/wd/hub    platformName=Android    platformVersion=7.0    deviceName=ca20e0510603     appPackage=com.miui.calculator    appActivity=com.miui.calculator.cal.DefaultCalculatorActivity
+    Wait Until Element Is Visible    //*[@bounds="[216,1594][432,1757]"]    10 seconds
+    Click Element    //*[@bounds="[216,1594][432,1757]"]
+    Sleep    2s
+    Click Element    //*[@bounds="[216,1594][432,1757]"]
+    Click Element    //*[@bounds="[216,1594][432,1757]"]
+    Sleep    5s
+    Close All Applications
