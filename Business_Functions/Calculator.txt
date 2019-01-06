@@ -1,0 +1,6 @@
+*** Settings ***
+Library           AppiumLibrary
+
+*** Keywords ***
+Open Calculator Application
+    Open Application    http://localhost:4723/wd/hub    platformName=Android    platformVersion=7.0    deviceName=ca20e0510603    appPackage=com.miui.calculator    appActivity=com.miui.calculator.cal.DefaultCalculatorActivity

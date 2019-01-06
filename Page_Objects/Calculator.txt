@@ -1,0 +1,4 @@
+*** Variables ***
+${Calc_Button1}    //*[@bounds="[216,1594][432,1757]"]
+${Calc_Plus}      //*[@bounds="[864,1594][1080,1757]"]
+${calc_result}    //*[@bounds="[864,1757][1080,1920]"]
