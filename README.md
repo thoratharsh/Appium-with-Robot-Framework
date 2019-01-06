@@ -39,13 +39,18 @@
 12.Connect device
 [Guide to connect device](https://www.guru99.com/adb-connect.html) 
 
+13.open command prompt and run below command to connected device id
+`adb devices`
+
 ## Locate elements in Appium
 You can write locators by inspecting elements in UIAutomator
 [Video link](https://www.youtube.com/watch?v=MpY08mJi7NA)
 [Documentation](https://developer.android.com/training/testing/ui-automator)
 
-## Find appActivity and appPackage name of your app
+## Find appActivity and appPackage name of your app 
 [Guide to get appActivity and addPackage](http://www.automationtestinghub.com/apppackage-and-appactivity-name/)
+To open uiautomator enter below command in command prompt
+`
+uiautomator
+`
 
-13.open command prompt and run below command to connected device id
-`adb devices`
