@@ -25,7 +25,7 @@
 
 `pip install robotframework-appiumlibrary`
 
-9.Install Appium for desktop [Download Link](https://github.com/appium/appium-desktop/releases/tag/v1.10.0)
+9.Install Appium for desktop and NodeJS [Download Link](https://github.com/appium/appium-desktop/releases/tag/v1.10.0)'
 
 10.Download Android SDK tools [link](http://www.androiddocs.com/sdk/index.html#Other)
 -Download zip file
@@ -34,7 +34,7 @@
 -add folder path to ANDROID_HOME envisroment variable
 -Open SDK Manager for folder install SDK's 
 
-11.Enable Developer options in your real device and on the USB debugging
+11.Enable Developer options in your real device and on the USB debugging. Also make sure you are selecting option "Install Via USB"
 
 12.Connect device
 [Guide to connect device](https://www.guru99.com/adb-connect.html) 
@@ -54,3 +54,10 @@ To open uiautomator enter below command in command prompt
 uiautomator
 `
 
+## Steps to run test cases
+
+-Open appium for desktop
+
+-start the appiumserver
+
+-run you test cases through RIDE
